@@ -7,7 +7,7 @@ import education from "../assets/Education.webp"
 function Education() {
   return (
     <div>
-      <div className="w-full flex justify-center">
+      <div id='Education' className="w-full flex justify-center secondary">
         <div className="w-[85%] py-24 flex flex-col sm:flex-row justify-between items-center">
           <div className="w-3/5 p-6 mx-auto">
             <div className="flex flex-col">
