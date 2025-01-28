@@ -11,7 +11,6 @@ import ScrollProgressDemo from './components/ui/ScrollProgressDemo'
 import { ChevronUp } from 'lucide-react'
 import Footer from './components/Footer'
 
-
 function App() {
   return (
     <div>
@@ -41,11 +40,13 @@ function App() {
         <Contact />
       </BlurFade>
       <Footer />
-      <a href="#Navbar"><div className="w-[70px] h-[70px] flex justify-center items-center fixed bottom-10 right-6 ">
-        <div className="w-12 h-12 hover:w-14 hover:h-14 flex justify-center items-center rounded-full cursor-pointer bg-yellow-300">
-          <ChevronUp color="black" className='hover:size-8' />
+      <a href="#Navbar">
+        <div className="w-[70px] h-[70px] flex justify-center items-center fixed bottom-10 right-6 ">
+          <div className="w-12 h-12 hover:w-14 hover:h-14 flex justify-center items-center rounded-full cursor-pointer bg-yellow-300">
+            <ChevronUp color="black" className='hover:size-8' />
+          </div>
         </div>
-      </div></a>
+      </a>
     </div>
   )
 }
